@@ -1,5 +1,7 @@
 # NGC Corp. Better Walls
 
+Currently supports cobble walls only. Additional wall variants will be added after further testing.
+
 Introduces new wall connection shapes including T-Junctions and Cross-Junctions. The mod operates independently from vanilla assets and does not override or extend existing blocks, ensuring full compatibility.
 
 They:
