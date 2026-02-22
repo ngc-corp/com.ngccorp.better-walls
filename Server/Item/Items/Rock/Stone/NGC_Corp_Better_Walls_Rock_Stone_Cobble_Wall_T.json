@@ -1,0 +1,46 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.com.ngccorp.better-walls.NGC_Corp_Better_Walls_Rock_Stone_Cobble_Wall.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Rock_Stone_Cobble_Fence.png",
+  "Categories": [
+    "Blocks.Structural"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Rock_Stone_Cobble",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Rock_Cobble_T.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Structures/Walls/Wall_Rock_Cobble_Textures/Stone.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Fence",
+    "Flags": {},
+    "VariantRotation": "NESW",
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "NGC_Corp_Better_Walls_Rock_Stone_Cobble_Wall",
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#615d44",
+    "BlockSoundSetId": "Stone"
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Stone"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "Parent": "NGC_Corp_Better_Walls_Rock_Stone_Cobble_Wall"
+}
