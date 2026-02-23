@@ -1,0 +1,109 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Rock_Marble_Cobble_Wall.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Rock_Marble_Cobble_Wall.png",
+  "Set": "Rock_Marble_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Rock_Marble"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Wall"
+        ]
+      }
+    ],
+    "OutputQuantity": 2,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Structures/Walls/Wall_Rock_Cobble_Textures/Marble.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "Rock_Marble_Cobble_Wall",
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#b4b0a1",
+    "State": {
+      "Definitions": {
+        "Corner": {
+          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Rock_Cobble_Corner.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Structures/Walls/Wall_Rock_Cobble_Textures/Marble.png",
+              "Weight": 1
+            }
+          ],
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "NGC_Corp_Better_Walls_Rock_Marble_Cobble_Wall",
+              "GatherType": "Rocks"
+            }
+          }
+        },
+        "T_Junction": {
+          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Rock_Cobble_T.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Structures/Walls/Wall_Rock_Cobble_Textures/Marble.png",
+              "Weight": 1
+            }
+          ],
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "NGC_Corp_Better_Walls_Rock_Marble_Cobble_Wall",
+              "GatherType": "Rocks"
+            }
+          }
+        },
+        "Cross_Junction": {
+          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Rock_Cobble_Cross.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Structures/Walls/Wall_Rock_Cobble_Textures/Marble.png",
+              "Weight": 1
+            }
+          ],
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "NGC_Corp_Better_Walls_Rock_Marble_Cobble_Wall",
+              "GatherType": "Rocks"
+            }
+          }
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "NGC_Corp_Better_Walls_WallConnectedBlockTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Straight": "NGC_Corp_Better_Walls_Rock_Marble_Cobble_Wall",
+        "Corner": "*NGC_Corp_Better_Walls_Rock_Marble_Cobble_Wall_State_Definitions_Corner",
+        "T_Junction": "*NGC_Corp_Better_Walls_Rock_Marble_Cobble_Wall_State_Definitions_T_Junction",
+        "Cross_Junction": "*NGC_Corp_Better_Walls_Rock_Marble_Cobble_Wall_State_Definitions_Cross_Junction"
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Marble"
+    ]
+  },
+  "Parent": "Rock_Stone_Cobble_Wall"
+}

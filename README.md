@@ -4,10 +4,10 @@ Introduces new wall connection shapes including T-Junctions and Cross-Junctions.
 
 They:
 
-✅ Provide T-Junction wall shapes
-✅ Provide Cross-Junction wall shapes
-❌ Do NOT connect to vanilla walls
-❌ Do NOT extend vanilla block sets
+✅ Provide T-Junction wall shapes<br />
+✅ Provide Cross-Junction wall shapes<br />
+❌ Do NOT connect to vanilla walls<br />
+❌ Do NOT extend vanilla block sets<br />
 ❌ Do NOT override vanilla assets
 
 ## Contributing
