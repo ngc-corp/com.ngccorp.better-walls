@@ -22,7 +22,6 @@
           "FenceConnection"
         ]
       },
-      "TransformRulesToOrientation": true,
       "PatternsToMatchAnyOf": [
         {
           "Type": "Custom",

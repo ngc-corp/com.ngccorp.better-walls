@@ -40,7 +40,7 @@
     "State": {
       "Definitions": {
         "Corner": {
-          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Rock_Cobble_Corner.blockymodel",
+          "CustomModel": "Blocks/Structures/Walls/Wall_Rock_Cobble_Corner.blockymodel",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Structures/Walls/Wall_Rock_Cobble_Textures/Quartzite.png",

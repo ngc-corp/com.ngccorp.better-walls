@@ -1,0 +1,124 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Rock_Sandstone_Cobble_Wall.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Rock_Sandstone_Cobble_Wall.png",
+  "Set": "Rock_Sandstone_Cobble",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Rock_Sandstone"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Wall"
+        ]
+      }
+    ],
+    "OutputQuantity": 2,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "CustomModel": "Blocks/Structures/Walls/Wall_Sandstone_Cobble.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Structures/Walls/Wall_Sandstone_Cobble_Textures/default.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Fence_Thick",
+    "Gathering": {
+      "Breaking": {
+        "ItemId": "NGC_Corp_Better_Walls_Rock_Sandstone_Cobble_Wall",
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#b38741",
+    "State": {
+      "Definitions": {
+        "Corner": {
+          "CustomModel": "Blocks/Structures/Walls/Wall_SandStone_Cobble_Corner.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Structures/Walls/Wall_Sandstone_Cobble_Textures/default.png",
+              "Weight": 1
+            }
+          ],
+          "HitboxType": "Fence_Corner_Thick",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "NGC_Corp_Better_Walls_Rock_Sandstone_Cobble_Wall",
+              "GatherType": "Rocks"
+            }
+          }
+        },
+        "T_Junction": {
+          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_SandStone_Cobble_T.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Structures/Walls/Wall_Sandstone_Cobble_Textures/default.png",
+              "Weight": 1
+            }
+          ],
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "NGC_Corp_Better_Walls_Rock_Sandstone_Cobble_Wall",
+              "GatherType": "Rocks"
+            }
+          }
+        },
+        "Cross_Junction": {
+          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_SandStone_Cobble_Cross.blockymodel",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Structures/Walls/Wall_Sandstone_Cobble_Textures/default.png",
+              "Weight": 1
+            }
+          ],
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "NGC_Corp_Better_Walls_Rock_Sandstone_Cobble_Wall",
+              "GatherType": "Rocks"
+            }
+          }
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "NGC_Corp_Better_Walls_WallConnectedBlockTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Straight": "NGC_Corp_Better_Walls_Rock_Sandstone_Cobble_Wall",
+        "Corner": "*NGC_Corp_Better_Walls_Rock_Sandstone_Cobble_Wall_State_Definitions_Corner",
+        "T_Junction": "*NGC_Corp_Better_Walls_Rock_Sandstone_Cobble_Wall_State_Definitions_T_Junction",
+        "Cross_Junction": "*NGC_Corp_Better_Walls_Rock_Sandstone_Cobble_Wall_State_Definitions_Cross_Junction"
+      }
+    }
+  },
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.58823,
+    "Translation": [
+      0,
+      -16.8
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Sandstone"
+    ]
+  },
+  "Parent": "Rock_Stone_Cobble_Wall"
+}
