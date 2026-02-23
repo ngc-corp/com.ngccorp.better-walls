@@ -33,7 +33,7 @@
     "Material": "Solid",
     "DrawType": "Model",
     "Opacity": "Transparent",
-    "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Rock_Cobble.blockymodel",
+    "CustomModel": "Blocks/Structures/Walls/Wall_Rock_Cobble.blockymodel",
     "CustomModelTexture": [
       {
         "Texture": "Blocks/Structures/Walls/Wall_Rock_Cobble_Textures/Stone.png",
