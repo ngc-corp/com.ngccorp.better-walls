@@ -1,6 +1,11 @@
 # NGC Corp. Better Walls
 
-⚠️ Currently supports cobble walls (stone cobble, marble cobble, quarzite cobble and volcanic cobble from v0.2.0) only. Additional wall variants will be added after further testing.
+⚠️ Currently supports:
+
+- Rock Cobble Walls (stone, marble, quarzite and volcanic from v0.2.0)
+- Sandstone Cobble Walls (default, red, white from v0.3.0, needs UV work)
+
+only. Additional wall variants will be added after further testing.
 
 ⚠️ It is strongly recommended to additionally use the mod ExtraTooltips. Without it, it can be difficult to distinguish between different wall blocks in the inventory or crafting menu.
 
