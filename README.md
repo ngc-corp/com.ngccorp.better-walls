@@ -1,8 +1,12 @@
 # NGC Corp. Better Walls
 
-Currently supports cobble walls only. Additional wall variants will be added after further testing.
+⚠️ Currently supports cobble walls (stone cobble, marble cobble, quarzite cobble and volcanic cobble from v0.2.0) only. Additional wall variants will be added after further testing.
+
+⚠️ It is strongly recommended to additionally use the mod ExtraTooltips. Without it, it can be difficult to distinguish between different wall blocks in the inventory or crafting menu.
 
 Introduces new wall connection shapes including T-Junctions and Cross-Junctions. The mod operates independently from vanilla assets and does not override or extend existing blocks, ensuring full compatibility.
+
+![Better Walls - Showcase of T_Junction and Cross_Junction](./Assets/screen0.png)
 
 They:
 
