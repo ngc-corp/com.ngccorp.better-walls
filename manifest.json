@@ -11,6 +11,7 @@
     }
   ],
   "Website": "https://github.com/ngc-corp/com.ngccorp.better-walls",
+  "ServerVersion": "2026.02.19-1a311a592",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},
