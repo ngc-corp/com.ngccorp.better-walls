@@ -1,7 +1,7 @@
 {
   "Group": "com.ngccorp.better-walls",
   "Name": "NGC Corp. Better Walls",
-  "Version": "0.3.0",
+  "Version": "0.4.0",
   "Description": "Introduces new wall connection shapes including T-Junctions and Cross-Junctions. The mod operates independently from vanilla assets and does not override or extend existing blocks, ensuring full compatibility.",
   "Authors": [
     {
