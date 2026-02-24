@@ -1,5 +1,7 @@
 # NGC Corp. Better Walls
 
+Introduces new wall connection shapes including T-Junctions and Cross-Junctions. The mod operates independently from vanilla assets and does not override or extend existing blocks, ensuring full compatibility.
+
 ⚠️ Currently supports:
 
 - Rock-Cobble walls (stone, marble, quarzite and volcanic from v0.2.0)
@@ -11,8 +13,6 @@
 only. Additional wall variants will be added after further testing.
 
 ⚠️ It is strongly recommended to additionally use the mod [ExtraTooltips](https://www.curseforge.com/hytale/mods/extratooltips). Without it, it can be difficult to distinguish between different wall blocks in the inventory or crafting menu.
-
-Introduces new wall connection shapes including T-Junctions and Cross-Junctions. The mod operates independently from vanilla assets and does not override or extend existing blocks, ensuring full compatibility.
 
 ![Better Walls - Rock Cobble - Showcase of T_Junction and Cross_Junction](./Assets/rock-cobble.png)
 
