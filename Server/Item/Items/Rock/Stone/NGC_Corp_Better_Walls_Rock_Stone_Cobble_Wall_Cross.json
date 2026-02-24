@@ -20,7 +20,7 @@
       }
     ],
     "Group": "Stone",
-    "HitboxType": "Fence",
+    "HitboxType": "NGC_Corp_Better_Walls_Cross",
     "Flags": {},
     "VariantRotation": "NESW",
     "Gathering": {

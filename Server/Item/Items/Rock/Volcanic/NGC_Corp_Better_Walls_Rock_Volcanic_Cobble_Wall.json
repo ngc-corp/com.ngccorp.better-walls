@@ -42,6 +42,7 @@
       "Definitions": {
         "Corner": {
           "CustomModel": "Blocks/Structures/Walls/Wall_Rock_Cobble_Corner.blockymodel",
+          "HitboxType": "Fence_Corner",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Structures/Walls/Wall_Rock_Cobble_Textures/Volcanic.png",
@@ -57,6 +58,7 @@
         },
         "T_Junction": {
           "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Rock_Cobble_T.blockymodel",
+          "HitboxType": "NGC_Corp_Better_Walls_T",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Structures/Walls/Wall_Rock_Cobble_Textures/Volcanic.png",
@@ -72,6 +74,7 @@
         },
         "Cross_Junction": {
           "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Rock_Cobble_Cross.blockymodel",
+          "HitboxType": "NGC_Corp_Better_Walls_Cross",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Structures/Walls/Wall_Rock_Cobble_Textures/Volcanic.png",

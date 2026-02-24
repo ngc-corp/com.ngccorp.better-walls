@@ -43,13 +43,13 @@
       "Definitions": {
         "Corner": {
           "CustomModel": "Blocks/Structures/Walls/Wall_SandStone_Cobble_Corner.blockymodel",
+          "HitboxType": "Fence_Corner_Thick",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Structures/Walls/Wall_Sandstone_Cobble_Textures/default.png",
               "Weight": 1
             }
           ],
-          "HitboxType": "Fence_Corner_Thick",
           "Gathering": {
             "Breaking": {
               "ItemId": "NGC_Corp_Better_Walls_Rock_Sandstone_Cobble_Wall",
@@ -59,6 +59,7 @@
         },
         "T_Junction": {
           "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_SandStone_Cobble_T.blockymodel",
+          "HitboxType": "NGC_Corp_Better_Walls_T_Thick",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Structures/Walls/Wall_Sandstone_Cobble_Textures/default.png",
@@ -74,6 +75,7 @@
         },
         "Cross_Junction": {
           "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_SandStone_Cobble_Cross.blockymodel",
+          "HitboxType": "NGC_Corp_Better_Walls_Cross_Thick",
           "CustomModelTexture": [
             {
               "Texture": "Blocks/Structures/Walls/Wall_Sandstone_Cobble_Textures/default.png",
