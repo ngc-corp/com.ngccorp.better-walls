@@ -11,8 +11,9 @@ only. Additional wall variants will be added after further testing.
 
 Introduces new wall connection shapes including T-Junctions and Cross-Junctions. The mod operates independently from vanilla assets and does not override or extend existing blocks, ensuring full compatibility.
 
-![Better Walls - Showcase of T_Junction and Cross_Junction](./Assets/rock-cobble.png)
-![Better Walls - Showcase of T_Junction and Cross_Junction](./Assets/sandstone-cobble.png)
+![Better Walls - Rock Cobble - Showcase of T_Junction and Cross_Junction](./Assets/rock-cobble.png)
+![Better Walls - Sandstone Cobble - Showcase of T_Junction and Cross_Junction](./Assets/sandstone-cobble.png)
+![Better Walls - Basalt/Slate Cobble - Showcase of T_Junction and Cross_Junction](./Assets/basalt-slate-cobble.png)
 
 They:
 
