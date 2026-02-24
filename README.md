@@ -2,8 +2,11 @@
 
 ⚠️ Currently supports:
 
-- Rock Cobble Walls (stone, marble, quarzite and volcanic from v0.2.0)
-- Sandstone Cobble Walls (default, red, white from v0.3.0, needs UV work)
+- Rock-Cobble walls (stone, marble, quarzite and volcanic from v0.2.0)
+- Sandstone-Cobble walls (default, red, white from v0.3.0)
+- Basalt-, Slate-Cobble walls (from v0.4.0)
+- Aqua-, Shale-Cobble walls (from v0.5.0)
+- Hitboxes for T_Junction and Cross_Junction (default and thick, from v0.5.0)
 
 only. Additional wall variants will be added after further testing.
 
@@ -12,8 +15,6 @@ only. Additional wall variants will be added after further testing.
 Introduces new wall connection shapes including T-Junctions and Cross-Junctions. The mod operates independently from vanilla assets and does not override or extend existing blocks, ensuring full compatibility.
 
 ![Better Walls - Rock Cobble - Showcase of T_Junction and Cross_Junction](./Assets/rock-cobble.png)
-![Better Walls - Sandstone Cobble - Showcase of T_Junction and Cross_Junction](./Assets/sandstone-cobble.png)
-![Better Walls - Basalt/Slate Cobble - Showcase of T_Junction and Cross_Junction](./Assets/basalt-slate-cobble.png)
 
 They:
 

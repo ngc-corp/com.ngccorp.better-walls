@@ -15,13 +15,15 @@ echo "Building $ZIP_NAME..."
 
 # ---- Create zip ----
 zip -r "$OUTPUT_DIR/$ZIP_NAME" . \
-  -x "Assets/*" \
   -x "*.bbmodel" \
   -x ".editorconfig" \
+  -x ".git/*" \
+  -x ".github/*" \
+  -x ".gitignore" \
+  -x "Assets/*" \
   -x "LICENSE" \
   -x "README.md" \
-  -x ".git/*" \
-  -x "dist/*" \
-  -x "build.sh"
+  -x "build.sh" \
+  -x "dist/*"
 
 echo "Build complete: $OUTPUT_DIR/$ZIP_NAME"
