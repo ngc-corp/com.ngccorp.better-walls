@@ -1,0 +1,137 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Soil_Clay_Ocean_Brick_Wall.name"
+  },
+  "ItemLevel": 15,
+  "Icon": "Icons/ItemsGenerated/Soil_Clay_Ocean_Brick_Wall.png",
+  "Categories": [
+    "Blocks.Structural"
+  ],
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil_Clay_Ocean_Brick",
+  "Recipe": {
+    "Input": [
+      {
+        "ResourceTypeId": "Soil_Clay_Ocean_Brick",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Builders",
+        "Type": "StructuralCrafting",
+        "Categories": [
+          "Wall"
+        ]
+      }
+    ],
+    "OutputQuantity": 2,
+    "TimeSeconds": 0
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/Structures/Walls/Wall_Rock_Brick03.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Structures/Walls/Wall_Rock_Brick03_Clay_Ocean.png",
+        "Weight": 1
+      }
+    ],
+    "Group": "Stone",
+    "HitboxType": "Fence_Thin",
+    "VariantRotation": "Wall",
+    "BlockParticleSetId": "Stone",
+    "Supporting": {
+      "Down": [
+        {
+          "FaceType": "Wall"
+        }
+      ],
+      "Up": [
+        {
+          "FaceType": "Wall"
+        }
+      ]
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#6a887b",
+    "BlockSoundSetId": "Stone",
+    "State": {
+      "Definitions": {
+        "Corner": {
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Structures/Walls/Wall_Rock_Brick_Corner03_Clay.png",
+              "Weight": 1
+            }
+          ],
+          "CustomModel": "Blocks/Structures/Walls/Wall_Rock_Brick_Corner03.blockymodel",
+          "HitboxType": "Fence_Corner_Thin",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "NGC_Corp_Better_Walls_Soil_Clay_Ocean_Brick_Wall",
+              "GatherType": "Rocks"
+            }
+          }
+        },
+        "T_Junction": {
+          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Rock_Brick_T03.blockymodel",
+          "HitboxType": "NGC_Corp_Better_Walls_T_Thin",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Structures/Walls/Wall_Rock_Brick_Corner03_Clay.png",
+              "Weight": 1
+            }
+          ],
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "NGC_Corp_Better_Walls_Soil_Clay_Ocean_Brick_Wall",
+              "GatherType": "Rocks"
+            }
+          }
+        },
+        "Cross_Junction": {
+          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Rock_Brick_Cross03.blockymodel",
+          "HitboxType": "NGC_Corp_Better_Walls_Cross_Thin",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Structures/Walls/Wall_Rock_Brick_Corner03_Clay.png",
+              "Weight": 1
+            }
+          ],
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "NGC_Corp_Better_Walls_Soil_Clay_Ocean_Brick_Wall",
+              "GatherType": "Rocks"
+            }
+          }
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "NGC_Corp_Better_Walls_WallConnectedBlockTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Straight": "NGC_Corp_Better_Walls_Soil_Clay_Ocean_Brick_Wall",
+        "Corner": "*NGC_Corp_Better_Walls_Soil_Clay_Ocean_Brick_Wall_State_Definitions_Corner",
+        "T_Junction": "*NGC_Corp_Better_Walls_Soil_Clay_Ocean_Brick_Wall_State_Definitions_T_Junction",
+        "Cross_Junction": "*NGC_Corp_Better_Walls_Soil_Clay_Ocean_Brick_Wall_State_Definitions_Cross_Junction"
+      }
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Soil"
+    ],
+    "Family": [
+      "Clay"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft"
+}
