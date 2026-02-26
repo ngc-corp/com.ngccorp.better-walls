@@ -32,7 +32,7 @@
     ],
     "Gathering": {
       "Breaking": {
-        "ItemId": "Rock_Marble_Cobble_Wall",
+        "ItemId": "NGC_Corp_Better_Walls_Rock_Marble_Cobble_Wall",
         "GatherType": "Rocks"
       }
     },

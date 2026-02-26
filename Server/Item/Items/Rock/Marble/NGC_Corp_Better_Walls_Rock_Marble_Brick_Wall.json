@@ -1,14 +1,14 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Rock_Shale_Cobble_Wall.name"
+    "Name": "server.items.Rock_Marble_Brick_Wall.name"
   },
-  "Icon": "Icons/ItemsGenerated/Rock_Shale_Cobble_Wall.png",
-  "Set": "Rock_Shale_Cobble",
+  "Icon": "Icons/ItemsGenerated/Rock_Marble_Brick_Wall.png",
+  "Set": "Rock_Marble_Brick",
   "Recipe": {
     "Input": [
       {
         "Quantity": 1,
-        "ResourceTypeId": "Rock_Shale"
+        "ResourceTypeId": "Rock_Marble_Brick"
       }
     ],
     "BenchRequirement": [
@@ -24,68 +24,66 @@
     "TimeSeconds": 0
   },
   "BlockType": {
-    "CustomModel": "Blocks/Structures/Walls/Wall_Shale_Cobble.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Structures/Walls/Wall_Shale_Cobble_default.png",
+        "Texture": "Blocks/Structures/Walls/Wall_Rock_Brick_Marble.png",
         "Weight": 1
       }
     ],
-    "HitboxType": "Fence_Thick",
     "Gathering": {
       "Breaking": {
-        "ItemId": "NGC_Corp_Better_Walls_Rock_Shale_Cobble_Wall",
+        "ItemId": "NGC_Corp_Better_Walls_Rock_Marble_Brick_Wall",
         "GatherType": "Rocks"
       }
     },
-    "VariantRotation": "NESW",
-    "ParticleColor": "#2d3d42",
+    "HitboxType": "Fence_Thick",
+    "ParticleColor": "#d5d5c8",
     "State": {
       "Definitions": {
         "Corner": {
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/Structures/Walls/Wall_Shale_Cobble_default.png",
+              "Texture": "Blocks/Structures/Walls/Wall_Rock_Brick_Marble.png",
               "Weight": 1
             }
           ],
-          "CustomModel": "Blocks/Structures/Walls/Wall_Shale_Cobble_Corner.blockymodel",
+          "CustomModel": "Blocks/Structures/Walls/Wall_Rock_Brick_Corner.blockymodel",
           "HitboxType": "Fence_Corner_Thick",
           "Gathering": {
             "Breaking": {
-              "ItemId": "NGC_Corp_Better_Walls_Rock_Shale_Cobble_Wall",
+              "ItemId": "NGC_Corp_Better_Walls_Rock_Marble_Brick_Wall",
               "GatherType": "Rocks"
             }
           }
         },
         "T_Junction": {
-          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Shale_Cobble_T.blockymodel",
+          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Rock_Brick_T.blockymodel",
           "HitboxType": "NGC_Corp_Better_Walls_T_Thick",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/Structures/Walls/Wall_Shale_Cobble_default.png",
+              "Texture": "Blocks/Structures/Walls/Wall_Rock_Brick_Marble.png",
               "Weight": 1
             }
           ],
           "Gathering": {
             "Breaking": {
-              "ItemId": "NGC_Corp_Better_Walls_Rock_Shale_Cobble_Wall",
+              "ItemId": "NGC_Corp_Better_Walls_Rock_Marble_Brick_Wall",
               "GatherType": "Rocks"
             }
           }
         },
         "Cross_Junction": {
-          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Shale_Cobble_Cross.blockymodel",
+          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Rock_Brick_Cross.blockymodel",
           "HitboxType": "NGC_Corp_Better_Walls_Cross_Thick",
           "CustomModelTexture": [
             {
-              "Texture": "Blocks/Structures/Walls/Wall_Shale_Cobble_default.png",
+              "Texture": "Blocks/Structures/Walls/Wall_Rock_Brick_Marble.png",
               "Weight": 1
             }
           ],
           "Gathering": {
             "Breaking": {
-              "ItemId": "NGC_Corp_Better_Walls_Rock_Shale_Cobble_Wall",
+              "ItemId": "NGC_Corp_Better_Walls_Rock_Marble_Brick_Wall",
               "GatherType": "Rocks"
             }
           }
@@ -96,10 +94,10 @@
       "Type": "CustomTemplate",
       "TemplateShapeAssetId": "NGC_Corp_Better_Walls_WallConnectedBlockTemplate",
       "TemplateShapeBlockPatterns": {
-        "Straight": "NGC_Corp_Better_Walls_Rock_Shale_Cobble_Wall",
-        "Corner": "*NGC_Corp_Better_Walls_Rock_Shale_Cobble_Wall_State_Definitions_Corner",
-        "T_Junction": "*NGC_Corp_Better_Walls_Rock_Shale_Cobble_Wall_State_Definitions_T_Junction",
-        "Cross_Junction": "*NGC_Corp_Better_Walls_Rock_Shale_Cobble_Wall_State_Definitions_Cross_Junction"
+        "Straight": "NGC_Corp_Better_Walls_Rock_Marble_Brick_Wall",
+        "Corner": "*NGC_Corp_Better_Walls_Rock_Marble_Brick_Wall_State_Definitions_Corner",
+        "T_Junction": "*NGC_Corp_Better_Walls_Rock_Marble_Brick_Wall_State_Definitions_T_Junction",
+        "Cross_Junction": "*NGC_Corp_Better_Walls_Rock_Marble_Brick_Wall_State_Definitions_Cross_Junction"
       }
     }
   },
@@ -108,8 +106,8 @@
       "Rock"
     ],
     "Family": [
-      "Shale"
+      "Marble"
     ]
   },
-  "Parent": "Rock_Stone_Cobble_Wall"
+  "Parent": "Rock_Stone_Brick_Wall"
 }

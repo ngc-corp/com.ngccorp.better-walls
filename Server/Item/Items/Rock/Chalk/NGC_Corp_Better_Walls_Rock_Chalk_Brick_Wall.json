@@ -1,0 +1,111 @@
+{
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "Rock_Chalk_Brick"
+      }
+    ],
+    "OutputQuantity": 2,
+    "TimeSeconds": 0,
+    "BenchRequirement": [
+      {
+        "Categories": [
+          "Wall"
+        ],
+        "Id": "Builders",
+        "Type": "StructuralCrafting"
+      }
+    ]
+  },
+  "Parent": "Rock_Stone_Brick_Wall",
+  "Icon": "Icons/ItemsGenerated/Rock_Chalk_Brick_Wall.png",
+  "TranslationProperties": {
+    "Name": "server.items.Rock_Chalk_Brick_Wall.name"
+  },
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Weight": 1,
+        "Texture": "Blocks/Structures/Fences/Dev_Fence_Texture/Rock_Chalk_Brick_Fence.png"
+      }
+    ],
+    "ParticleColor": "#d0ccc6",
+    "CustomModel": "Blocks/Structures/Fences/Dev_Fence.blockymodel",
+    "State": {
+      "Definitions": {
+        "Corner": {
+          "CustomModelTexture": [
+            {
+              "Weight": 1,
+              "Texture": "Blocks/Structures/Fences/Dev_Fence_Texture/Rock_Chalk_Brick_Fence.png"
+            }
+          ],
+          "CustomModel": "Blocks/Structures/Fences/Dev_Fence_Corner.blockymodel",
+          "HitboxType": "Fence_Corner",
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "NGC_Corp_Better_Walls_Rock_Chalk_Brick_Wall",
+              "GatherType": "Woods"
+            }
+          }
+        },
+        "T_Junction": {
+          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Dev_Fence_T.blockymodel",
+          "HitboxType": "NGC_Corp_Better_Walls_T",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Structures/Fences/Dev_Fence_Texture/Rock_Chalk_Brick_Fence.png",
+              "Weight": 1
+            }
+          ],
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "NGC_Corp_Better_Walls_Rock_Chalk_Brick_Wall",
+              "GatherType": "Rocks"
+            }
+          }
+        },
+        "Cross_Junction": {
+          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Dev_Fence_Cross.blockymodel",
+          "HitboxType": "NGC_Corp_Better_Walls_Cross",
+          "CustomModelTexture": [
+            {
+              "Texture": "Blocks/Structures/Fences/Dev_Fence_Texture/Rock_Chalk_Brick_Fence.png",
+              "Weight": 1
+            }
+          ],
+          "Gathering": {
+            "Breaking": {
+              "ItemId": "NGC_Corp_Better_Walls_Rock_Chalk_Brick_Wall",
+              "GatherType": "Rocks"
+            }
+          }
+        }
+      }
+    },
+    "ConnectedBlockRuleSet": {
+      "Type": "CustomTemplate",
+      "TemplateShapeAssetId": "NGC_Corp_Better_Walls_WallConnectedBlockTemplate",
+      "TemplateShapeBlockPatterns": {
+        "Straight": "NGC_Corp_Better_Walls_Rock_Chalk_Brick_Wall",
+        "Corner": "*NGC_Corp_Better_Walls_Rock_Chalk_Brick_Wall_State_Definitions_Corner",
+        "T_Junction": "*NGC_Corp_Better_Walls_Rock_Chalk_Brick_Wall_State_Definitions_T_Junction",
+        "Cross_Junction": "*NGC_Corp_Better_Walls_Rock_Chalk_Brick_Wall_State_Definitions_Cross_Junction"
+      }
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Set": "Rock_Chalk_Brick"
+}
