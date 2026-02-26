@@ -2,26 +2,11 @@
 
 Introduces new wall connection shapes including T-Junctions and Cross-Junctions. The mod operates independently from vanilla assets and does not override or extend existing blocks, ensuring full compatibility.
 
-⚠️ Currently supports:
-
-- Rock-Cobble walls (stone, marble, quarzite and volcanic from v0.2.0)
-- Sandstone-Cobble walls (default, red, white from v0.3.0)
-- Basalt-, Slate-Cobble walls (from v0.4.0)
-- Aqua-, Shale-Cobble walls (from v0.5.0)
-- Hitboxes for T_Junction and Cross_Junction (default and thick, from v0.5.0)
-- Calcite-Cobble wall (from v0.6.0)
-- Basalt-Brick wall (from v0.6.0)
-- Calcite-Brick wall (from v0.6.0)
-- Gold-Brick wall (from v0.6.0)
-- Volcanic-, Quarzite-Brick walls (from v0.6.0)
-
-only. Additional wall variants will be added after further testing.
+⚠️ From version `1.0.0` we have support for all walls i could find.
 
 ⚠️ It is strongly recommended to additionally use the mod [ExtraTooltips](https://www.curseforge.com/hytale/mods/extratooltips). Without it, it can be difficult to distinguish between different wall blocks in the inventory or crafting menu.
 
 ![Better Walls - Rock Cobble - Showcase of T_Junction and Cross_Junction - 01](./Assets/screen0.png)
-
-![Better Walls - Rock Cobble - Showcase of T_Junction and Cross_Junction - 01](./Assets/screen1.png)
 
 They:
 
