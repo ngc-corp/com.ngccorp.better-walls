@@ -99,7 +99,7 @@
         "T_Junction": "*NGC_Corp_Better_Walls_Rock_Calcite_Cobble_Wall_State_Definitions_T_Junction",
         "Cross_Junction": "*NGC_Corp_Better_Walls_Rock_Calcite_Cobble_Wall_State_Definitions_Cross_Junction"
       },
-      "TemplateShapeAssetId": "NGC_Corp_Better_Walls_WallConnectedBlockTemplate"
+      "TemplateShapeAssetId": "WallConnectedBlockTemplate"
     }
   },
   "Tags": {

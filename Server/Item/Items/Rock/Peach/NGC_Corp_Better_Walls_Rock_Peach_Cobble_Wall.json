@@ -87,7 +87,7 @@
     },
     "ConnectedBlockRuleSet": {
       "Type": "CustomTemplate",
-      "TemplateShapeAssetId": "NGC_Corp_Better_Walls_WallConnectedBlockTemplate",
+      "TemplateShapeAssetId": "WallConnectedBlockTemplate",
       "TemplateShapeBlockPatterns": {
         "Straight": "NGC_Corp_Better_Walls_Rock_Peach_Cobble_Wall",
         "Corner": "*NGC_Corp_Better_Walls_Rock_Peach_Cobble_Wall_State_Definitions_Corner",

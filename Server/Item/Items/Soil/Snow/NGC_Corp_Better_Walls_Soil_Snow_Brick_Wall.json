@@ -116,7 +116,7 @@
     },
     "ConnectedBlockRuleSet": {
       "Type": "CustomTemplate",
-      "TemplateShapeAssetId": "NGC_Corp_Better_Walls_WallConnectedBlockTemplate",
+      "TemplateShapeAssetId": "WallConnectedBlockTemplate",
       "TemplateShapeBlockPatterns": {
         "Straight": "NGC_Corp_Better_Walls_Soil_Snow_Brick_Wall",
         "Corner": "*NGC_Corp_Better_Walls_Soil_Snow_Brick_Wall_State_Definitions_Corner",

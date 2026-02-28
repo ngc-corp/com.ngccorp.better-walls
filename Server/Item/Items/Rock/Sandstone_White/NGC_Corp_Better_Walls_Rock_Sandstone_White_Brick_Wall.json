@@ -92,7 +92,7 @@
     },
     "ConnectedBlockRuleSet": {
       "Type": "CustomTemplate",
-      "TemplateShapeAssetId": "NGC_Corp_Better_Walls_WallConnectedBlockTemplate",
+      "TemplateShapeAssetId": "WallConnectedBlockTemplate",
       "TemplateShapeBlockPatterns": {
         "Straight": "NGC_Corp_Better_Walls_Rock_Sandstone_White_Brick_Wall",
         "Corner": "*NGC_Corp_Better_Walls_Rock_Sandstone_White_Brick_Wall_State_Definitions_Corner",
