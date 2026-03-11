@@ -150,11 +150,11 @@
       "orientation": {"x": 0, "y": 0, "z": 0, "w": 1},
       "shape": {
         "type": "box",
-        "offset": {"x": 0.5, "y": 0, "z": 0},
-        "stretch": {"x": 1, "y": 1, "z": 1},
+        "offset": {"x": 1, "y": 0, "z": 0},
+        "stretch": {"x": 1.25, "y": 1, "z": 1},
         "settings": {
           "isPiece": false,
-          "size": {"x": 17, "y": 6, "z": 14}
+          "size": {"x": 16, "y": 6, "z": 14}
         },
         "textureLayout": {
           "back": {
@@ -168,7 +168,7 @@
             "angle": 0
           },
           "front": {
-            "offset": {"x": 8, "y": 12},
+            "offset": {"x": 9, "y": 12},
             "mirror": {"x": false, "y": false},
             "angle": 0
           },
@@ -178,7 +178,7 @@
             "angle": 270
           },
           "top": {
-            "offset": {"x": 8, "y": 0},
+            "offset": {"x": 9, "y": 0},
             "mirror": {"x": false, "y": false},
             "angle": 0
           }
