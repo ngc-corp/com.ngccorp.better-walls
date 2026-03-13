@@ -35,12 +35,12 @@
             "angle": 0
           },
           "top": {
-            "offset": {"x": 0, "y": 0},
+            "offset": {"x": 32, "y": 48},
             "mirror": {"x": false, "y": false},
             "angle": 0
           },
           "bottom": {
-            "offset": {"x": 0, "y": 0},
+            "offset": {"x": 32, "y": 48},
             "mirror": {"x": false, "y": false},
             "angle": 0
           }
@@ -408,7 +408,7 @@
           "id": "10",
           "name": "TopBlockDetail--C1",
           "position": {"x": 0, "y": 0, "z": 0},
-          "orientation": {"x": 0, "y": -1, "z": 0, "w": 0},
+          "orientation": {"x": 0, "y": 1, "z": 0, "w": 0},
           "shape": {
             "type": "box",
             "offset": {"x": 0, "y": 0, "z": 0},
