@@ -127,12 +127,12 @@
             "angle": 0
           },
           "top": {
-            "offset": {"x": 0, "y": 43},
+            "offset": {"x": 69, "y": 74},
             "mirror": {"x": false, "y": false},
             "angle": 0
           },
           "bottom": {
-            "offset": {"x": 29, "y": 56},
+            "offset": {"x": 34, "y": 56},
             "mirror": {"x": false, "y": false},
             "angle": 0
           }
@@ -178,12 +178,12 @@
             "angle": 0
           },
           "top": {
-            "offset": {"x": 0, "y": 65},
-            "mirror": {"x": false, "y": false},
+            "offset": {"x": 29, "y": 96},
+            "mirror": {"x": false, "y": true},
             "angle": 0
           },
           "bottom": {
-            "offset": {"x": 29, "y": 56},
+            "offset": {"x": 39, "y": 73},
             "mirror": {"x": false, "y": false},
             "angle": 0
           }
@@ -275,12 +275,12 @@
             "angle": 0
           },
           "top": {
-            "offset": {"x": 0, "y": 65},
+            "offset": {"x": 29, "y": 91},
             "mirror": {"x": false, "y": false},
             "angle": 0
           },
           "bottom": {
-            "offset": {"x": 29, "y": 56},
+            "offset": {"x": 39, "y": 73},
             "mirror": {"x": false, "y": false},
             "angle": 0
           }
@@ -372,7 +372,7 @@
             "angle": 0
           },
           "top": {
-            "offset": {"x": 0, "y": 65},
+            "offset": {"x": 29, "y": 91},
             "mirror": {"x": false, "y": false},
             "angle": 0
           },

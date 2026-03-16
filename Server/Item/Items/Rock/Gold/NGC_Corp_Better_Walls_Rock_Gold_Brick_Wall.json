@@ -49,7 +49,7 @@
               "Weight": 1
             }
           ],
-          "CustomModel": "Blocks/Structures/Walls/Wall_Gold_Brick_Corner.blockymodel",
+          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Gold_Brick_Corner.blockymodel",
           "HitboxType": "Fence_Corner_Thin",
           "Gathering": {
             "Breaking": {
