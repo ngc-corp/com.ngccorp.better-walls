@@ -48,7 +48,7 @@
               "Weight": 1
             }
           ],
-          "CustomModel": "Blocks/Structures/Walls/Wall_Shale_Brick_Corner.blockymodel",
+          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Wall_Shale_Brick_Corner.blockymodel",
           "HitboxType": "Fence_Corner",
           "Gathering": {
             "Breaking": {

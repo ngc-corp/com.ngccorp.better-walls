@@ -41,7 +41,7 @@
               "Texture": "Blocks/Structures/Fences/Dev_Fence_Texture/Rock_Chalk_Brick_Fence.png"
             }
           ],
-          "CustomModel": "Blocks/Structures/Fences/Dev_Fence_Corner.blockymodel",
+          "CustomModel": "Blocks/Structures/Fences/NGC_Corp_Better_Walls_Dev_Fence_Corner.blockymodel",
           "HitboxType": "Fence_Corner",
           "Gathering": {
             "Breaking": {
@@ -51,7 +51,7 @@
           }
         },
         "T_Junction": {
-          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Dev_Fence_T.blockymodel",
+          "CustomModel": "Blocks/Structures/Fences/NGC_Corp_Better_Walls_Dev_Fence_T.blockymodel",
           "HitboxType": "NGC_Corp_Better_Walls_T",
           "CustomModelTexture": [
             {
@@ -67,7 +67,7 @@
           }
         },
         "Cross_Junction": {
-          "CustomModel": "Blocks/Structures/Walls/NGC_Corp_Better_Walls_Dev_Fence_Cross.blockymodel",
+          "CustomModel": "Blocks/Structures/Fences/NGC_Corp_Better_Walls_Dev_Fence_Cross.blockymodel",
           "HitboxType": "NGC_Corp_Better_Walls_Cross",
           "CustomModelTexture": [
             {
